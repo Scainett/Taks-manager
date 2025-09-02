@@ -1,0 +1,50 @@
+
+form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 30px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+}
+
+input[type="text"]:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 8px rgba(41, 128, 185, 0.4);
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(41, 128, 185, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #1c5980;
+  box-shadow: 0 6px 16px rgba(28, 89, 128, 0.6);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}

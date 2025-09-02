@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background: url('https://fivemx.com/wp-content/uploads/2024/10/os-for-fivem-server-jpg-600x310.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(44, 62, 80, 0.6); /* overlay azul oscuro semitransparente */
+  z-index: -1;
+}
