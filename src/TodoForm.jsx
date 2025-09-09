@@ -20,7 +20,7 @@ function TodoForm({ addTodo }) {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
-      <button type="submit">Agregar</button>
+      <button type="submit" class="btn btn-outline-success">Agregar</button>
     </form>
   );
 }

@@ -24,9 +24,8 @@ function TodoItem({ todo, toggleComplete, deleteTodo, style }) {
         onChange={() => toggleComplete(todo.id)}
       />
       <span>{todo.text}</span>
-      <button onClick={handleDelete}>Eliminar</button>
+      <button onClick={handleDelete} type="button" class="btn btn-outline-danger">Eliminar</button>
     </li>
   );
 }
-
 export default TodoItem;
